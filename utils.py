@@ -17,7 +17,7 @@ model_path = config.FLAGS.model_path
 embeddings_size = config.FLAGS.embeddings_size
 max_sequence = config.FLAGS.max_sequence
 
-
+# 添加测试注释
 
 class BatchedInput(collections.namedtuple("BatchedInput",
                                           ("initializer",
